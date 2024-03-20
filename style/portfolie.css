@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+/* nav header are */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.nav-taille{
+   
+    font-weight: 800px;
+    font-size: 45px;
+
+}
+nav ul{
+    display: flex;
+}
+.text-primary{
+     color:#FD6E0A;
+
+}
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+.btn-stlye{
+    height: 50px;
+    width: 80px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: -50px;
+}
