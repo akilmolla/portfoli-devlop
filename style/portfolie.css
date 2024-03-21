@@ -1,8 +1,14 @@
 *{
-    margin: 0;
+    margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
 /* nav header are */
+header{
+    background-color: #f7f5f4;
+    background-image: url('../images/header_bg.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -16,6 +22,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 .text-primary{
      color:#FD6E0A;
@@ -32,5 +39,52 @@ nav li {
     color: white;
     border: none;
     border-radius: 10px;
-    margin-top: -50px;
+    padding: 50 auto;
+    
 }
+/* banner are */
+.bannaer-area{
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+}
+.text-smal{
+    font-size: 25px;
+    font-weight: 300px;
+}
+.text-header{
+    font-size: 50px;
+    font-weight: 400px;
+}
+.text-pargrhap{
+    color: black;
+    width: 400px;
+    margin-bottom: 10px;
+}
+/* ABOUT SECTION AREA */
+.About-area{
+    background-color: antiquewhite;
+    margin: 50px 100px;
+    height: 350px;
+}
+.heading-text{
+    text-align: center;
+    color: black;
+    
+    font-size: 80px;
+    font-weight: 500;
+}
+.parghap-text{
+    text-align: center;
+    margin: 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* about info area side */
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin: 20px 50px;
+}
+
